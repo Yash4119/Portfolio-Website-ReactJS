@@ -104,7 +104,7 @@ const profiles = [
         </div>
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0 mb-0">
           {profiles.map(({ id, src,href,style }) => (
-            <div key={id} className={"shadow-md shadow-gray-400 rounded-md "+" "+style}>
+            <div key={id} className={"shadow-md shadow-gray-400 rounded-md "+style}>
               <img
                 src={src}
                 alt="_blank"
