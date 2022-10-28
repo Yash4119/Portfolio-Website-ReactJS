@@ -1,0 +1,30 @@
+npx create-react-app app_name
+
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+
+=> paste thiss in the tailwind.config file
+
+module.exports = {
+  content: [
+    "./src/**/*.{js,jsx,ts,tsx}",
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+
+=> paste this in the index.css
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+npm i react-icons
+
+=> Fonts required
+
+Raleway (all styles)
+Great Vibes
+
