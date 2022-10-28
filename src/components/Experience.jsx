@@ -90,7 +90,7 @@ const experience = () => {
         </div>
         <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-8 text-center py-8 px-12 sm:px-0">
           {techStack.map(({ id, src, title, style }) => (
-            <div key = {id} className={"shadow-md hover:scale-105 duration-500 py-2 rounded-lg"+style}>
+            <div key = {id} className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}>
               <img src={src} alt="_blank" className="w-30 mx-auto h-40 w-full" />
               <p className="mt-4 font-semibold">{title}</p>
             </div>

@@ -38,7 +38,7 @@ const profiles = [
     title : "Leetcode",
     src:leetcode,
     href:"https://leetcode.com/yashamb444/",
-    style: "shadow-orange-500"
+    style: "shadow-orange-300"
   },
   {
     id:2,
@@ -52,7 +52,7 @@ const profiles = [
     title: "Hackerrank",
     src:hackerrank,
     href: "https://www.hackerrank.com/yashamb444",
-    style: "shadow-orange-800"
+    style: "shadow-green-600"
   }
 ]
 
@@ -104,7 +104,7 @@ const profiles = [
         </div>
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0 mb-0">
           {profiles.map(({ id, src,href,style }) => (
-            <div key={id} className={"shadow-md shadow-gray-400 rounded-md "+style}>
+            <div key={id} className={`shadow-md rounded-md ${style}`}>
               <img
                 src={src}
                 alt="_blank"
