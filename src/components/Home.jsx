@@ -1,7 +1,7 @@
 import React from "react";
 import HeroImage from "../assets/heroImage.JPG";
 import { MdKeyboardArrowRight } from "react-icons/md";
-import {Link} from "react-scroll"
+import { Link } from "react-scroll";
 
 const Home = () => {
   return (
@@ -15,22 +15,28 @@ const Home = () => {
             I'm a Problem Solver
           </h2>
           <p className="text-gray-400 py-4 px-1 max-w-md ">
-            I'm a 3rd year Computer Engineering student at Dr. D. Y. Patil
-            Institute of Technology.
-            <br />
-            I enjoy doing problem solving using concepts of Data Structures and
-            Algorithms.
-            <br />
-            Currently I'm working on Full Stack Web Development Projects and
-            deep diving into newer Tech.
+            <ul>
+              <li>I enjoy doing problem solving using concepts of Data Structures and
+            Algorithms.</li>
+            <br></br>
+              <li>A passionate Full Stack Software Developer 🚀 having an experience
+            of building Web applications with JavaScript / Reactjs / Nodejs and
+            other cool libraries and frameworks.</li>
+            </ul>
+            
           </p>
           <div>
-            <Link to="portfolio" smooth duration={800} className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer font-bold ">
+            <Link
+              to="portfolio"
+              smooth
+              duration={800}
+              className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer font-bold "
+            >
               Portfolio
               <span className="group-hover:rotate-90 duration-300">
                 <MdKeyboardArrowRight size={25} className="ml-1" />
               </span>
-            </Link> 
+            </Link>
           </div>
         </div>
         <div className=" mt-20">

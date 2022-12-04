@@ -45,7 +45,7 @@ const SocialLinks = () => {
             <AiOutlineFilePdf size={30}/>
           </>
         ),
-        href : 'https://drive.google.com/file/d/1fEaXs7HcDo1dmulbzdcwcoC9UV3R-f3X/view?usp=sharing',
+        href : 'https://drive.google.com/file/d/1qGqljIOg42v2LM8gAEGIIGqCqLGpuVNQ/view?usp=share_link',
         style:'rounded-br-md',
         download:true
     }

@@ -1,5 +1,6 @@
 import React from "react";
 import letschat from "../assets/letschat.png"
+import cryptotracker from "../assets/cryptotracker.png"
 import todolist from "../assets/todolist.png"
 import textutils from "../assets/textutils.png"
 import leetcode from "../assets/leetcode.jpg"
@@ -18,18 +19,25 @@ const Portfolio = () => {
     },
     {
       id: 2,
+      src: cryptotracker,
+      title:"Crypto-Tracker App",
+      code:"https://github.com/Yash4119/Crypto-Tracker",
+      demo:"https://crypto-tracker-yash-ambekar.netlify.app/"
+    },
+    {
+      id: 3,
       src: textutils,
       title:"React Js Word Counter",
       code:"https://github.com/Yash4119/TextUtils_Reactjs",
       demo:"https://text-utils-yash-ambekar.netlify.app/"
     },
-    {
-      id: 3,
-      src: todolist,
-      title : "React Js ToDo List App",
-      code:"https://github.com/Yash4119/React_Js-ToDo-App",
-      demo:"https://todo-app-yash-ambekar.netlify.app/"
-    }
+    // {
+    //   id: 4,
+    //   src: todolist,
+    //   title : "React Js ToDo List App",
+    //   code:"https://github.com/Yash4119/React_Js-ToDo-App",
+    //   demo:"https://todo-app-yash-ambekar.netlify.app/"
+    // }
   ];
 
 const profiles = [
